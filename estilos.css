@@ -1,0 +1,58 @@
+/*El body significa el cuerpo de la pagina*/
+
+body{
+    background-color: #81c3d7;/*Color del cuerpo de la pagina*/
+
+    color: #001c55;/*Color de la letra de la pagina*/
+
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*//*Cambiar letra en visualstudio por default */
+    font-family: 'Tulpen One', cursive;
+}
+h1 {
+    color: #231942;
+    text-align: center;
+}
+h4 {
+    color: #231942;
+}
+h3{
+    color: #0d3b66;
+    text-align: center;
+}
+ul, ol, p{
+    color: #0d3b66;
+}
+
+.img1, .img2, .img3{
+    width: 300 px; /*Altura*/
+    height: 250px; /*Anchura*/
+    border-style: solid; /* Borde linea continua */
+   /*  border-style: dotted; /* Borde punteado */
+    /* border-style: dashed; /* Borde más largo */
+   /*  border-style: double dashed; /* Borde doble */
+   /*  border-style: groove; /* Borde groove */
+   border-color: #227d7b; /* Color del border*/
+   border-width: 15px;/* espacio al rededor del contenido */
+   padding: 30px; /* Tamaño del espacio de entre la imagen*/
+   margin: 10px; /* Margen de la imagen */
+}
+
+.img4, .img5, .img6{
+ 
+    width: 300 px; /*Altura*/
+    height: 250px; /*Anchura*/
+   /* border-style: solid; /* Borde linea continua */
+     border-style: dotted; /* Borde punteado */
+    /* border-style: dashed; /* Borde más largo */
+   /*  border-style: double dashed; /* Borde doble */
+   /*  border-style: groove; /* Borde groove */
+   border-color: #227d7b; /* Color del border*/
+   border-width: 8px; /* ramaño del borde */
+   margin-left: 30px;/* espacio al rededor del contenido */
+   margin-top: 60px;/* espacio al rededor del contenido */
+}
+
+small{
+    color: #0a13c6;
+}
+
